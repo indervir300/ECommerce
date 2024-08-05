@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Commerce</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li> <a href="/products"> Products </a> </li>
+            <li> <a href="/about"> About </a> </li>
+            <li> <a href="/contact"> Contact </a> </li>
+            <li> <img src="images/search.svg" alt=""> </li>
+            <li> <span class="count"> 1 </span> <img src="images/bell.svg" alt=""> </li>
+            <li> <span class="count"> 1 </span> <img src="images/cart.svg" alt=""> </li>
+            <li> <img src="images/gear.svg" alt=""> </li>
+        </ul>
+    </nav>
+
+    <div class="search_container" style="margin-top: 70px;">
+        <form action="/search_item" method="post">
+            <img src="images/funnel.svg" alt="" style="margin-right: 15px;">
+            <input type="text" placeholder="Search Product">
+            <img src="images/search.svg" alt="">
+        </form>
+    </div>
+
+    <div class="products_heading" style="margin-top: 30px;">
+        <h3> All Products <span style="float: right;"> <a href="/browse_all" style="font-size: 14px; font-weight: 500;">
+                    browse </a> </span> </h3>
+    </div>
+    
+    <!-- All Categories -->
+    
+    <div class="container">
+        <div class="cards">
+            <img src="images/t-shirt.png" alt="">
+            <p> ₹ <span>299.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+        
+        <div class="cards">
+            <img src="images/dryer.png" alt="">
+            <p> ₹ <span>205.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/perfumeBottle.jpg" alt="">
+            <p> ₹ <span>150.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/cup.jpg" alt="">
+            <p> ₹ <span>324.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/cup.jpg" alt="">
+            <p> ₹ <span>324.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/cup.jpg" alt="">
+            <p> ₹ <span>324.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+        
+    </div>
+    
+    <!-- Men Cateory -->
+    
+        <div class="products_heading" style="margin-top: 30px;">
+            <h3> Products for Men <span style="float: right;"> <a href="/browse_men_items" style="font-size: 14px; font-weight: 500;">
+                        browse for men</a> </span> </h3>
+        </div>
+
+    <div class="container">
+        <div class="cards">
+            <img src="images/menShoe.png" alt="">
+            <p> ₹ <span>299.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/t-shirt.png" alt="">
+            <p> ₹ <span>205.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+        <div class="cards">
+            <img src="images/adidasT-Shirt.png" alt="">
+            <p> ₹ <span>150.00</span> </p>
+            <img src="images/cart.svg" alt="" class="cart_img" title="Add item to cart">
+        </div>
+
+    </div>
+
+
+    <div class="feedback_container">
+        <form action="#" method="post">
+            <input type="text" name="" placeholder="Your Name"> <br>
+            <input type="email" name="" placeholder="Email Address"> <br>
+            <textarea name="" cols="30" rows="8" placeholder="Give your feedback...."></textarea> <br>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer_links">
+            <div class="social_links">
+                <p>Follow</p>
+                <ul>
+                    <li> <a href="/instagram"> Instagram </a> </li>
+                    <li> <a href="/facebook"> Facebook </a> </li>
+                    <li> <a href="/twitter"> Twitter </a> </li>
+                    <li> <a href="/youtube"> Youtube </a> </li>
+                </ul>
+            </div>
+            <div class="contact_links">
+                <p>Contact</p>
+                <ul>
+                    <li> <a href="tel:9774912361"> +91 9774912361 </a> </li>
+                    <li> <a href="mailto:example@gmail.com"> example@gmail.com </a> </li>
+                    <li> <a href=""> Shop Address </a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p style="text-align: center; color: #dfdfdf;">Copyright © 2023</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
